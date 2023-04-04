@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AcordaSus</string>
+    <string name="name">Nome</string>
+    <string name="password">Senha</string>
+    <string name="remember">Remember</string>
+    <string name="login">Login</string>
+    <string name="textoExemplo">É importante que você saiba que ao confirmar uma consulta pelo aplicativo do AcordaSUS (Sistema Único de Saúde), é essencial que compareça na data e horário marcados. Caso contrário, o seu aplicativo poderá ser bloqueado e você precisará comparecer presencialmente em algum ponto do SUS para desbloqueá-lo. Caso ocorra algum imprevisto, é fundamental que avise a unidade de saúde com antecedência, através de uma ligação, para que possam reorganizar a agenda e atender outros pacientes que necessitam de atendimento. </string>
+    <string name="msgError">Usuário incorreto</string>
+    <string name="queries" translatable="false">confirmar consultas</string>
+    <string name="inicio" translatable="false">Bem vindo,</string>
+    <string name="btcancelar">cancelar</string>
+    <string name="inform">é importante lembrar que cancelar uma consulta pode ter consequências graves, especialmente se você estiver realmente doente.</string>
+    <string name="textconfirm">Para confirmar o cancelamento ligue:</string>
+    <string name="phone">+55 (81) 33000-3003</string>
+    <string name="query">*Você tem uma consulta no cardiologista.</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AcordaSus</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember</string>
+    <string name="login">Login</string>
+    <string name="textoExemplo">It is important that you know that when confirming an appointment through the AcordaSUS application (Sistema Único de Saúde), it is essential that you show up at the scheduled date and time. Otherwise, your application may be blocked and you will need to be in person at some point in the SUS to unblock it. If you tolerate any unforeseen events, it is essential that you notify the health unit in advance, through a call, so that you can rearrange your schedule and attend to other patients who remain in attendance.</string>
+    <string name="msgError">User error</string>
+    <string name="queries">confirm queries</string>
+    <string name="inicio">Welcome,</string>
+    <string name="btcancelar">cancel</string>
+    <string name="inform">Its important to remember that canceling an appointment can have serious consequences, especially if youre really sick.</string>
+    <string name="textconfirm">To confirm the cancellation call:</string>
+    <string name="phone">+55 (81) 33000-3003</string>
+    <string name="query">*you have an appointment at the cardiologist</string>
+</resources>
