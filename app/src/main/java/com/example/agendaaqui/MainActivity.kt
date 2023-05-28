@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.agendaaqui.databinding.ActivityMainBinding
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding
@@ -22,6 +24,7 @@ class MainActivity : AppCompatActivity() {
                 val texto = edNome.text.toString()
                 inten.putExtra("nome", texto)
                 startActivity(inten)
+
             }
             else{
                 Toast.makeText(this, R.string.msgError, Toast.LENGTH_SHORT).show()
