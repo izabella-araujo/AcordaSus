@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47318872447",
+    "project_id": "agendaaqui-c4188",
+    "storage_bucket": "agendaaqui-c4188.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47318872447:android:1ca74e7b6db1374d87ea4a",
+        "android_client_info": {
+          "package_name": "com.example.agendaaqui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47318872447-tacd8viaokk5pdftf52ov06rencq4vhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRlaBtRb10upIAvSQFcr8CDCJCHcgWP1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47318872447-tacd8viaokk5pdftf52ov06rencq4vhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
