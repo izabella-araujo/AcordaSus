@@ -6,4 +6,82 @@
     android:layout_height="match_parent"
     tools:context=".CadatrarConsultasActivity">
 
+    <TextView
+        android:id="@+id/CdTitulo"
+        android:layout_width="243dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/CdTitulo"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CdEspecialidade"
+        android:layout_width="289dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="@string/CdEspecialidade"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/CdTitulo"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/CdTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/CdTitulo" />
+
+    <EditText
+        android:id="@+id/CdMedico"
+        android:layout_width="289dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/CdMedico"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/CdEspecialidade"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/CdEspecialidade"
+        app:layout_constraintTop_toBottomOf="@+id/CdEspecialidade" />
+
+    <EditText
+        android:id="@+id/CdHorario"
+        android:layout_width="289dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/CdHorario"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/CdMedico"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/CdMedico"
+        app:layout_constraintTop_toBottomOf="@+id/CdMedico" />
+
+    <EditText
+        android:id="@+id/CdData"
+        android:layout_width="289dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/CdData"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/CdHorario"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="@+id/CdHorario"
+        app:layout_constraintTop_toBottomOf="@+id/CdHorario" />
+
+    <Button
+        android:id="@+id/Btcadastrar"
+        android:layout_width="289dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/Btcadastrar"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/CdData"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="@+id/CdData"
+        app:layout_constraintTop_toBottomOf="@+id/CdData" />
 </androidx.constraintlayout.widget.ConstraintLayout>
