@@ -13,4 +13,11 @@
     <string name="textconfirm">To confirm the cancellation call:</string>
     <string name="phone">+55 (81) 33000-3003</string>
     <string name="query">*you have an appointment at the cardiologist</string>
+    <string name="email">E-mail</string>
+    <string name="Btcadastrar">REGISTER</string>
+    <string name="CdEspecialidade">specialty</string>
+    <string name="CdMedico">doctor</string>
+    <string name="CdHorario">time</string>
+    <string name="CdData">date</string>
+    <string name="CdTitulo">Consultation Registration</string>
 </resources>
