@@ -18,7 +18,7 @@ class Tela2Activity : AppCompatActivity() {
         val button = binding.button
 
         button.setOnClickListener {
-            val inten = Intent(this, Tela3Activity::class.java)
+            val inten = Intent(this, CadatrarConsultasActivity::class.java)
             startActivity(inten)
         }
     }
