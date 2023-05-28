@@ -14,4 +14,11 @@
     <string name="textconfirm">Para confirmar o cancelamento ligue:</string>
     <string name="phone">+55 (81) 33000-3003</string>
     <string name="query">*Você tem uma consulta no cardiologista.</string>
+    <string name="email">E-mail</string>
+    <string name="Btcadastrar">CADASTRAR</string>
+    <string name="CdEspecialidade">Especialidade</string>
+    <string name="CdMedico">Medico</string>
+    <string name="CdHorario">Horario</string>
+    <string name="CdData">Data</string>
+    <string name="CdTitulo">Cadastro de Consulta</string>
 </resources>
